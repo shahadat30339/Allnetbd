@@ -6,11 +6,11 @@
       "id": "v2ray-sg-01",
       "type": "vless",
       "country": "Singapore",
-      "host": "sg.yourdomain.com",
+      "host": "194.113.73.236",
       "port": 443,
-      "uuid": "REPLACE-WITH-REAL-UUID",
+      "uuid": "f281a397-02ad-4fbf-8484-b3f487e0c743",
       "network": "ws",
-      "path": "/vless",
+      "path": "/dooompro",
       "tls": true
     },
     {
