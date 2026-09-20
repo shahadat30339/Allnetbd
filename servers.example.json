@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-20T10:00:00Z",
+  "servers": [
+    {
+      "id": "v2ray-sg-01",
+      "type": "vless",
+      "country": "Singapore",
+      "host": "sg.yourdomain.com",
+      "port": 443,
+      "uuid": "REPLACE-WITH-REAL-UUID",
+      "network": "ws",
+      "path": "/vless",
+      "tls": true
+    },
+    {
+      "id": "ssh-us-01",
+      "type": "ssh",
+      "country": "USA",
+      "host": "us.yourdomain.com",
+      "port": 22,
+      "username": "vpnuser1",
+      "auth": "password",
+      "password": "REPLACE-WITH-REAL-PASSWORD"
+    }
+  ]
+}
