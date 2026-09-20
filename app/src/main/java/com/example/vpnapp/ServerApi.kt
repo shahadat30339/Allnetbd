@@ -6,13 +6,11 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 
 interface ServerApi {
-    // Replace with the real URL where you host servers.json
-    @GET("servers.json")
+    @GET("servers.example.json")
     suspend fun getServers(): ServerListResponse
 
     companion object {
-        // CHANGE THIS to your own server / GitHub raw URL
-        private const val BASE_URL = "https://yourdomain.com/api/"
+        private const val BASE_URL = "https://raw.githubusercontent.com/shahadat30339/Allnetbd/main/"
 
         fun create(): ServerApi {
             return Retrofit.Builder()
